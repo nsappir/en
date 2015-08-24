@@ -14,6 +14,14 @@
  * limitations under the License.
  */
 
+a.buttontext {
+  text-decoration: none;
+}
+
+.title-name {
+  color: #4A148C;
+  margin-top: 0;
+}
 /*a#phone-number {
   text-decoration: none;
 }
@@ -42,30 +50,31 @@ a#phone-number:hover {
   padding-left: 40px;
 }
 
-.demo-container {
+/*.demo-container {
   max-width: 1600px;
   width: calc(100% - 16px);
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
 
-.demo-content {
+/*.demo-content {
   border-radius: 2px;
   padding: 80px 56px;
   margin-bottom: 80px;
-}
+}*/
 
-.demo-layout.is-small-screen .demo-content {
+/*.demo-layout.is-small-screen .demo-content {
   padding: 40px 28px;
-}
+}*/
 
-.demo-content h3 {
+/*.demo-content h3 {
   margin-top: 48px;
-}
+}*/
 
 .demo-footer {
   padding-left: 40px;
+  font-size: 10px;
 }
 
-.demo-footer .mdl-mini-footer--link-list a {
-  font-size: 13px;
+.demo-footer a {
+  text-decoration: none;
 }
