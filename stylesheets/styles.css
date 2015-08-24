@@ -14,6 +14,14 @@
  * limitations under the License.
  */
 
+a#phone-number {
+  text-decoration: none;
+}
+
+a#phone-number:hover {
+  text-decoration: underline;
+}
+
 .demo-ribbon {
   width: 100%;
   height: 40vh;
